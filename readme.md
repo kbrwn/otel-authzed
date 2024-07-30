@@ -12,7 +12,7 @@ This repository provides a simple setup for running the OpenTelemetry Collector 
 ## Setup
 
 
-2. **Create the `env-vars.sh` File**
+1. **Edit the `env-vars.sh` File**
 
    Edit the file named `env-vars.sh` in the root of the repository with the following content:
 
@@ -26,11 +26,11 @@ This repository provides a simple setup for running the OpenTelemetry Collector 
 
    Replace the placeholder values with your actual credentials and configurations.
 
-3. **Create the Configuration File**
+2. **Create the Configuration File**
 
    Edit the file named `otel-collector-config.yaml` in the root of the repository.
 
-4. **Make the Script Executable**
+3. **Make the Script Executable**
 
    Make the `run-otel-collector.sh` script executable:
 
@@ -38,7 +38,7 @@ This repository provides a simple setup for running the OpenTelemetry Collector 
    chmod +x run-otel-collector.sh
    ```
 
-5. **Run the Script**
+4. **Run the Script**
 
    Run the script to start the OpenTelemetry Collector Docker container with the configured settings:
 
